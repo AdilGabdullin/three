@@ -1,0 +1,33 @@
+I need someone to merge this example:
+
+A. https://threejs.org/examples/?q=css3#css3d_youtube
+
+into this one:
+
+B. https://threejs.org/examples/?q=css3#css3d_periodictable
+
+
+
+What I mean by merging is replacing the periodic element cards of B. by videos from A.
+
+The videos in B. must have the same functionalities than in A (playable, functional inside buttons)
+
+The number of videos can be changed and will impact the organisation of videos in B.
+
+
+
+In addition:
+
+- a button must be added in B., next to (table, sphere, helix grid) to rotate the video container so that it is horizontally aligned with the browser window;
+
+- Table: the table containing all the video is a rectangle filled with all the videos. The videos must be organised depending on their number (1x1 -> 2x1 -> 2x2 -> 3x2 -> 3x3 -> 4x3 -> etc.). Each arrangement must cover the same space, so zooming is required.
+
+- Sphere display: whatever the number of videos, the number of blank space must be minimal and the videos containers must be parallel & "horizontal"
+
+- Helix, just add the videos one after the other. The circle radius may depend on the number of videos.>*
+
+- Grid: Same as table. The videos must be organised depending on their number (1: 1 -> 2: 2x1 -> <4: 2x2 -> <8: (2x2)x(2x2) -> <27: (3x3)x(3x3)x(3x3))
+
+
+
+Deliverable: update B. source code (https://github.com/mrdoob/three.js/blob/master/examples/css3d_periodictable.html)
